@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(131, 118, 118);
+}
+.formCollection{
+    height: 550px;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+    padding: 7px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.labelchange{
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+}
+.inputchange{
+    text-align: center;
+    background-color: rgb(120, 238, 199);
+    height: 27px;
+    width: 30%;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px;
+    color: black;
+    margin-left: 4px;
+}
+.buttonchange{
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: rgb(97, 184, 212);
+    font-size: 25px;
+    height: 6%;
+    color: red;
+}
+.button:hover{
+    color: blueviolet;
+    background-color: burlywood;
+}
+.formbox{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 6%;
+    justify-content: space-around;
+}
+.formdetails{
+  border: 2px solid black;
+  height: 80px;
+  width: 42%;
+  margin: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: large;
+  background-color:bisque;
+  border-radius: 23px;
+}
